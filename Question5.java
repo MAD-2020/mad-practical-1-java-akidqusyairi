@@ -26,7 +26,16 @@ public class Question5
      * Hint: Use a loop to get input. Use another 2 loops to find the mode
      */
      
+    ArrayList<Integer> intlist = new ArrayList<>();
+
     Scanner in = new Scanner(System.in);
-    
+    System.out.println("Enter an integer: ");
+    int number = in.nextInt();
+    for(int i = 0; i < number; i++)
+    {
+      System.out.println("Enter an integer: ");
+      int q = in.nextInt();
+      intlist.add(q);
+    }
   }
 }
