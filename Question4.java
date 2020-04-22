@@ -9,7 +9,7 @@ public class Question4
     System.out.prinln("Enter an integer: ");
     int number = in.nextInt();
     int j = number;
-    int k = number;
+    int k = j;
     while(j > 0)
     {
       while(k > 0)
